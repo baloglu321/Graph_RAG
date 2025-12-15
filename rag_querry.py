@@ -9,7 +9,7 @@ import time
 
 # Async hatasını önle
 nest_asyncio.apply()
-CLOUDFLARE_TUNNEL_URL = "https://western-differently-salary-chem.trycloudflare.com/" 
+CLOUDFLARE_TUNNEL_URL = "..." 
 OLLAMA_MODEL_ID = "gemma3:27b"
 # ---------------------------------------------------------
 # 1. AYARLAR
@@ -41,7 +41,7 @@ Settings.embed_model = HuggingFaceEmbedding(
 # ---------------------------------------------------------
 graph_store = Neo4jPropertyGraphStore(
     username="neo4j",
-    password="abcd1234",  # Şifreni buraya yaz
+    password="...",  # Şifreni buraya yaz
     url="bolt://localhost:7687",
 )
 
