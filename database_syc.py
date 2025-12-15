@@ -11,7 +11,7 @@ import nest_asyncio
 import json
 nest_asyncio.apply() 
 
-CLOUDFLARE_TUNNEL_URL = "https://western-differently-salary-chem.trycloudflare.com/" 
+CLOUDFLARE_TUNNEL_URL = "..." 
 OLLAMA_MODEL_ID = "llama3.1:8b"
 # ---------------------------------------------------------
 # 1. AYARLAR
@@ -35,7 +35,7 @@ Settings.embed_model = HuggingFaceEmbedding(
 # Şifreni az önce belirlediğin şifreyle değiştir
 graph_store = Neo4jPropertyGraphStore(
     username="neo4j",
-    password="abcd1234",
+    password="...",
     url="bolt://localhost:7687",
 )
 
