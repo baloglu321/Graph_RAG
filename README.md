@@ -76,7 +76,7 @@ graph TB
 
 ### Software Requirements
 
-- Python 3.8+
+- Python 3.11+
 - Neo4j Database (Community or Enterprise Edition)
 - Ollama (for local LLM inference)
 - Cloudflare Tunnel (for Ollama access) or local Ollama installation
